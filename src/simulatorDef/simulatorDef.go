@@ -1,4 +1,4 @@
-package simulator
+package simulatorDef
 
 const N_FLOORS int = 4
 

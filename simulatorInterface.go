@@ -1,7 +1,5 @@
 package main
 
-// export GOPATH=/home/eriklil/Documents/TTK4145/Project/
-//export GOPATH=/Users/Erik/OneDrive/02\ NTNU/01\ Fag/TTK4145\ Sanntid/TTK4145/Project/
 // export GOPATH=$(pwd)/
 // export GOPATH=~/
 
@@ -11,9 +9,8 @@ import (
 	"log"
 	"net"
 	"os"
-
+	. "simulatorDef"
 	"strconv"
-	. "typedef"
 )
 
 func listenForUserInput(userInput chan string) {
