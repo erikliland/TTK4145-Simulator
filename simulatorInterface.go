@@ -1,15 +1,12 @@
 package main
 
-// export GOPATH=$(pwd)/
-// export GOPATH=~/
-
 import (
+	. "./src/simulatorDef"
 	"encoding/json"
 	"fmt"
 	"log"
 	"net"
 	"os"
-	. "simulatorDef"
 	"strconv"
 )
 
